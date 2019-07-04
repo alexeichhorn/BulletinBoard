@@ -21,6 +21,9 @@ let package = Package(
             name: "BLTNBoard",
             dependencies: [],
             path: "Sources",
-            exclude: []),
+            exclude: [
+                "Models/BLTNActionItem.m",
+                "Models/BLTNPageItem.m"
+            ]),
     ]
 )
