@@ -20,6 +20,7 @@ let package = Package(
         .target(
             name: "BLTNBoard",
             dependencies: [],
+            path: "Sources",
             exclude: []),
     ]
 )
